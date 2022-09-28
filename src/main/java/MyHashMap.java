@@ -58,7 +58,6 @@ public class MyHashMap<T, V> {
                 put(currentNode.key, currentNode.value);
                 while (nextNode != null) {
                     put(nextNode.key, nextNode.value);
-                    currentNode = nextNode;
                     nextNode = nextNode.nextElement;
                 }
             }

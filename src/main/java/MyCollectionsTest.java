@@ -7,8 +7,8 @@ public class MyCollectionsTest {
         //myLinkingListTest();
         //myArrayListTest();
         //myQueueTest();
-        //myHashMapTest();
-        myStackTest();
+        myHashMapTest();
+        //myStackTest();
     }
 
     private static void myStackTest() {
